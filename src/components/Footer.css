@@ -1,0 +1,35 @@
+/* Add your custom styles here */
+
+.footer .row.gy-5.g-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .col-md-6 {
+  flex: 1;
+}
+
+.footer .col-md-6 a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.btn-primary {
+  background-color: #FEA116;
+  border-color: #FEA116;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FEA116;
+}
+
+.navbar-light .navbar-brand {
+  color: #FEA116;
+}
+
+.text-primary {
+  color: #FEA116 !important;
+}.bg-primary {
+  background-color: #FEA116 !important;
+}

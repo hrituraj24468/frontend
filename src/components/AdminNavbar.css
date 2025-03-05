@@ -1,0 +1,59 @@
+.vertical-navbar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+  transition: width 0.3s;
+}
+
+.vertical-navbar.collapsed {
+  width: 60px; /* Width when collapsed */
+}
+
+.vertical-navbar .navbar-toggler {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  position: absolute;
+  top: 5px;
+  right: 10px; /* Position on the right side when expanded */
+  transition: right 0.3s, left 0.3s;
+}
+
+.vertical-navbar.collapsed .navbar-toggler {
+  right: auto;
+  left: 10px; /* Position on the left side when collapsed */
+}
+
+.vertical-navbar .nav-link {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  color: white; /* Set text color to white */
+}
+
+.vertical-navbar .nav-link:hover {
+  background-color: #495057;
+}
+
+.vertical-navbar .icon-left {
+  margin-right: 10px; /* Add some space between the icon and the text */
+  color: white; /* Set icon color to white */
+}
+
+.vertical-navbar .arrow {
+  margin-left: auto; /* Push the arrow to the right */
+}
+
+.vertical-navbar.collapsed .nav-link .arrow,
+.vertical-navbar.collapsed .nav-link span {
+  display: none; /* Hide text and arrow when collapsed */
+}
+
+.mt-auto {
+  margin-top: auto;
+  padding: 10px 15px;
+}

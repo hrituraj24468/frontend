@@ -1,0 +1,63 @@
+/* Add your custom styles here */
+
+.page-header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.page-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.breadcrumb {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb-item a {
+  color: white;
+}
+
+.breadcrumb-item.active {
+  color: white;
+}
+
+.about-section .form-floating {
+  margin-bottom: 1rem;
+}
+
+.about-section .btn {
+  width: 100%;
+  padding: 1rem;
+}
+
+.newsletter {
+  margin-top: 5rem;
+}
+
+.newsletter .border {
+  padding: 1rem;
+}
+
+.newsletter .bg-white {
+  padding: 2rem;
+}
+
+.newsletter .form-control {
+  padding: 1rem;
+}
+
+.newsletter .btn {
+  padding: 0.5rem 1rem;
+}

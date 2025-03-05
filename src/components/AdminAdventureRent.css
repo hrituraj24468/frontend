@@ -1,0 +1,16 @@
+/* Add custom styles for the AdminAdventureRent component */
+.container {
+  margin-top: 20px;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+}

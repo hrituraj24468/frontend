@@ -1,0 +1,61 @@
+/* Add your custom styles here */
+
+.carousel-image {
+  max-height: 600px; /* Adjust the max height as needed */
+  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 23, 43, 0.7); /* Background color with transparency */
+  z-index: 1; /* Ensure the background is below the caption */
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2; /* Ensure the caption is above the background */
+}
+
+.bold-text {
+  font-weight: bold;
+  z-index: 2; /* Ensure the text is above the background */
+}
+
+.tour-box {
+  height: 400px; /* Set a fixed height for the tour boxes */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  background-color: #FEA116;
+  border-color: #FEA116;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FEA116;
+}
+
+.navbar-light .navbar-brand {
+  color: #FEA116;
+}
+
+.text-primary {
+  color: #FEA116 !important;
+}.bg-primary {
+  background-color: #FEA116 !important;
+}

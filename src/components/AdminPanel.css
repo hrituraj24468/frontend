@@ -1,0 +1,47 @@
+body {
+  background-color: #f8f9fa;
+  /* Adjust margin to account for the width of the vertical navbar */
+}
+
+.vertical-navbar.collapsed + .content {
+  margin-left: 60px; /* Adjust margin when the navbar is collapsed */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff5722;
+}
+
+.navbar-brand:hover {
+  color: #e64a19;
+}
+
+.nav-item a {
+  font-size: 1.2rem;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-x: auto;
+  margin-left: 250px;
+}
+
+.table-responsive {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table th, .table td {
+  word-wrap: break-word;
+}

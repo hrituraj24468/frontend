@@ -1,0 +1,28 @@
+/* Add your custom styles here */
+
+.container {
+  margin-top: 20px;
+}
+
+.table img {
+  max-width: 100px;
+  height: auto;
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 10px;
+}
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-x: auto;
+  margin-left: 250px;
+}

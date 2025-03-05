@@ -1,0 +1,20 @@
+/* Add your custom styles here */
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1030; /* Ensure the navbar is above other content */
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: orange !important; /* Change the color to black on hover */
+}
